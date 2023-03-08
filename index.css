@@ -1,0 +1,39 @@
+.pill-nav a { /*css for nav bar*/
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.pill-nav a.active {
+  background-color: whitesmoke;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+  font-size: 17px; 
+}
+.container { /*container for image*/
+  position: relative;
+  max-width: 2000px;
+  margin: 0 auto;
+}
+.container img {vertical-align: middle;}
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}

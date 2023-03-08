@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meals</title>
+    <link rel="stylesheet" href="meals.css" />
+</head>
+<body>
+    <h1>💖 Dobrodošli u hrvatsku</h1>
+    <div class="pill-nav">
+      <a href="index.html">Home</a>
+      <a class="active" href="meals.html">Meals</a>
+      <a href="places.html">Places</a>
+    </div>
+    <!--dropdown selection for meals-->
+    <form id="search-form">
+      <label for="meal-select">Select a meal:</label>
+      <select id="meal-select" name="meal-select">
+        <option value="">--Select a meal--</option>
+        <option value="Walnut Roll Gužvara">Walnut Roll Gužvara</option>
+        <option value="Croatian lamb peka">Croatian lamb peka</option>
+        <option value="Mushroom soup with buckwheat">Mushroom soup with buckwheat</option>
+        <option value="Burek">Burek</option>
+        <option value="Fresh sardines">Fresh sardines</option>       
+        <!-- Add more options here -->
+      </select>
+      <button type="submit">Search</button>
+    </form>
+    <div id="meal-details"></div>
+    <div id="box1">
+    <div id="ingredient-list"></div>
+    </div>
+    <script src="meals.js"></script> <!--connect with meals.js-->
+</body>
+</html>

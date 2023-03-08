@@ -1,0 +1,31 @@
+.pill-nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+  
+  .pill-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .pill-nav a.active {
+    background-color: whitesmoke;
+    color: black;
+  }
+  #box1{ /*box for ingredients*/
+    background: white;
+    width: 400px;
+    height: 300px;
+    border: 5px black solid;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    top: 550px;
+    right: 10%;
+    text-align: left;
+    }
